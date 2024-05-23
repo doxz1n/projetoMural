@@ -1,0 +1,20 @@
+body{
+    background-color: #dfcae1;
+}
+.container {
+    width: 80%;
+    height: 80%;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child {
+    padding: 10%;
+    width: 80%;
+}
+
+.center {
+    text-align: center;
+}
