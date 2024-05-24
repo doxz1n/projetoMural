@@ -1,6 +1,6 @@
 <?php
 session_start();
-if(!isset($_SESSION['logado'])){
+if (!isset($_SESSION['logado'])) {
     header("Location: login.php");
 }
 include "funcoes/conexao.php";
@@ -11,4 +11,5 @@ $stmt->execute();
 echo "<script>";
 echo "alert('Aviso excluído com sucesso!');";
 echo "window.location.href = 'paineladm.php';";
-echo "</script>";;
+echo "</script>";
+;

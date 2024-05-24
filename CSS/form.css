@@ -18,3 +18,10 @@ body{
 .center {
     text-align: center;
 }
+
+footer{
+    background-color: #dcffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
