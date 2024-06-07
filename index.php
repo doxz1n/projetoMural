@@ -14,7 +14,7 @@
 
 <body>
     <?php
-    include ("menu.php");
+    include("menu.php");
     ?>
     <section class="containers">
         <h1 class="section-title"> Painel Informativo </h1>
@@ -28,6 +28,6 @@
 
 </body>
     <?php
-    include ("footer.php");
+    include("footer.php");
     ?>
 </html>

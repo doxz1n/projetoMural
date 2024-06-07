@@ -12,7 +12,7 @@
 
 <body>
     <?php
-    include ("menu.php");
+    include("menu.php");
     ?>
     <section class="container">
         <div class="child">
@@ -43,13 +43,13 @@
         </div>
     </section>
     <?php
-    include ("footer.php");
+    include("footer.php");
     ?>
 </body>
 
 </html>
 <?php
-include ("funcoes/funcoescontato.php");
+include("funcoes/funcoescontato.php");
 if (isset($_POST['txNome']) && isset($_POST['txEmail']) && isset($_POST['txAssunto']) && isset($_POST['txMensagem'])) {
     salvarContato($_POST['txNome'], $_POST['txEmail'], $_POST['txAssunto'], $_POST['txMensagem']);
 }

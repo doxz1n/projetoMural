@@ -17,7 +17,7 @@
     <section class="container">
         <div class="child">
             <h1 class="display-5"> Cadastro Administrador </h1>
-            <form action=cadastroadm.php method="post">
+            <form action=cadastrousr.php method="post">
                 <div class="form-group">
                     <div>
                         <label> Usuário </label>

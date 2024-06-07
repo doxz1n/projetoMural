@@ -12,7 +12,7 @@
 
 <body>
     <?php
-    include ("menu.php");
+    include("menu.php");
     ?>
     <section>
         <div class="d-flex flex-row mb-3">
@@ -38,7 +38,7 @@
         </div>
     </section>
     <?php
-    include ("footer.php");
+    include("footer.php");
     ?>
 </body>
 

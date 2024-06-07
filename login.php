@@ -12,8 +12,8 @@
 <body>
     <?php
     session_start();
-    include ("menu.php");
-    include ("funcoes/funcoesusuario.php");
+    include("menu.php");
+    include("funcoes/funcoesusuario.php");
     ?>
     <section class="container">
         <div class="child">
@@ -37,7 +37,7 @@
         </div>
     </section>
     <?php
-    include ("footer.php");
+    include("footer.php");
     ?>
 </body>
 

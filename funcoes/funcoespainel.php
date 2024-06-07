@@ -30,13 +30,13 @@ function mostrarContato(){
 }
 
 
-function salvarInformativo($aviso, $user, $mensagem)
+function salvarInformativo($titulo, $usuario, $texto, $caminhoimg, $periodo, $datacriacao)
 {
     $conn = conexao();
-    $stmt = $conn->prepare("insert into tbinformativo values(null,'$user','$aviso','$mensagem')");
+    $stmt = $conn->prepare("insert into tbinformativo values(null,'$titulo','$usuario','$texto','$caminhoimg','$periodo','$datacriacao')");
     $stmt->execute();
     echo "<script>";
-    echo "alert('Aviso enviado com sucesso'); window.location.href = 'paineladm.php';";
+    echo "alert('Aviso salvo com sucesso'); window.location.href = 'paineladm.php';";
     echo "</script>";
 }
 
@@ -66,3 +66,4 @@ function mostrarInformativo()
     }
     echo "</table></section>";
 }
+
