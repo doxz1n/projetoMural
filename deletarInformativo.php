@@ -5,9 +5,11 @@ if (!isset($_SESSION['logado'])) {
 }
 include "funcoes/conexao.php";
 $id = $_GET['id'];
+$img = $_GET['img'];
 $conn = conexao();
 $stmt = $conn->prepare("delete from tbInformativo where idInformativo = '$id'");
 $stmt->execute();
+unlink("./uploads/$img");
 echo "<script>";
 echo "alert('Aviso excluído com sucesso!');";
 echo "window.location.href = 'paineladm.php';";

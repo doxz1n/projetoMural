@@ -1,40 +1,18 @@
 body {
     background-color: #dfcae1;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
     margin: 0;
-    padding: 0;
-
-}
-
-
-
-.containers {
-    font-size: 25px;
-    color: black;
-}
-
-.section-title{
-    text-align: center;
-    font-size: 60px;
-    margin-bottom: 20px;
 }
 
 .container {
     width: 80%;
-    height: 80%;
     padding: 3%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.white-box {
-    padding: 5%;
-    width: 50%;
+.center {
+    text-align: center;
 }
-.white-box img{
+
+footer {
+    background-color: #dcffff;
     width: 100%;
 }
-

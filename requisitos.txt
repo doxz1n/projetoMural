@@ -1,15 +1,14 @@
 Parte do usuário:
-• Página principal contendo as informações existentes (10 últimas);
+• Página principal contendo as informações existentes (10 últimas) (FALTA FILTRAR OS 10 ULTIMOS);
 • Criação de contatos; (falta estilizar)
 • Criação de usuários; (falta estilziar)
 • Login com o sistema; (falta estilizar)
 
-
 Painel administrativo:
 • Utilização de sessão na parte administrativa; (feito)
 • Exibição e exclusão dos contatos recebidos; (falta estilizar)
-• Exibição e consulta das informações (em ordem decrescente de criação);
-• Criação, edição e exclusão de informações com a utilização de imagens(nao feito);
+• Exibição e consulta das informações (em ordem decrescente de criação) (FALTA ORDENAR);
+• Criação, edição e exclusão de informações com a utilização de imagens(FEITO);
 • Criação de uma API referente as informações do painel(nao feito)
 
 

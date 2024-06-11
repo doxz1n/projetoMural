@@ -1,13 +1,31 @@
-body{
-    background-color: #dfcae1;
+/* Reset de margens e preenchimentos padrão */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
+
+body {
+    background-color: #dfcae1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+header {
+    padding: 1rem;
+    background-color: #dcffff;
+}
+
 .container {
     width: 80%;
-    height: 80%;
+    flex: 1;
     padding: 3%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 
 .child {
@@ -19,9 +37,10 @@ body{
     text-align: center;
 }
 
-footer{
+footer {
     background-color: #dcffff;
-    position: fixed;
-    bottom: 0;
     width: 100%;
+    text-align: center;
+    padding: 1rem; /* Adicionei um padding para melhorar a aparência */
+    margin-top: auto; /* Garante que o footer fique no fim da página */
 }

@@ -46,9 +46,12 @@ function mostrarInformativo()
             <thead>
             <tr class=table-warning>
         <th scope='col'>ID</th>
-        <th scope='col'>Aviso</th>
-        <th scope='col'>Autor</th>
-        <th scope='col'>Mensagem</th>
+        <th scope='col'>Título</th>
+        <th scope='col'>Texto</th>
+        <th scope='col'>Usuário</th>
+        <th scope='col'>Caminho Imagem</th>
+        <th scope='col'>Perido</th>
+        <th scope='col'>Data de Criação</th>
         <th scope='col'>Excluir</th>
 </tr>
 </thead>";
@@ -58,10 +61,14 @@ function mostrarInformativo()
     while ($row = $stmt->fetch()) {
         echo("<tr class=table-warning>");
         echo("<th scope = row> $row[idInformativo]  </th>");
-        echo("<td>  $row[aviso]  </td>");
-        echo("<td>  $row[usuario]  </td>");
-        echo("<td>  $row[mensagem] </td>");
-        echo("<td> <a href='deletarInformativo.php?id=$row[idInformativo]' class='btn btn-danger'> Excluir </a>");
+        echo("<td>  $row[titulo]  </td>");
+        echo("<td>  $row[texto]  </td>");
+        echo("<td> $row[usuario]</td>");
+        echo("<td>  $row[caminhoimg] </td>");
+        echo("<td> $row[periodo] </td>");
+        echo("<td> $row[datacriacao] </td>");
+        echo("<td> <img style='width: 18rem' src='uploads/$row[caminhoimg]'/> </td>");
+        echo("<td> <a href='deletarInformativo.php?id=$row[idInformativo]&img=$row[caminhoimg]' class='btn btn-danger'> Excluir </a>");
         echo "</tr>";
     }
     echo "</table></section>";
