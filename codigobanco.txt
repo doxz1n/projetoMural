@@ -1,0 +1,29 @@
+create database projetoMural;
+use projetoMural;
+CREATE TABLE `tbcontato` (
+  `idContato` int NOT NULL AUTO_INCREMENT,
+  `nome` varchar(50) DEFAULT NULL,
+  `email` varchar(50) DEFAULT NULL,
+  `assunto` varchar(100) DEFAULT NULL,
+  `mensagem` varchar(2000) DEFAULT NULL,
+  PRIMARY KEY (`idContato`)
+);
+
+CREATE TABLE `tbinformativo` (
+  `idInformativo` int NOT NULL AUTO_INCREMENT,
+  `titulo` varchar(50) DEFAULT NULL,
+  `usuario` varchar(100) DEFAULT NULL,
+  `texto` varchar(2000) DEFAULT NULL,
+  `caminhoimg` varchar(500) DEFAULT NULL,
+  `periodo` date DEFAULT NULL,
+  `datacriacao` date DEFAULT NULL,
+  PRIMARY KEY (`idInformativo`)
+);
+
+CREATE TABLE `tbusuario` (
+  `idUsuario` int NOT NULL AUTO_INCREMENT,
+  `usuario` varchar(40) DEFAULT NULL,
+  `senha` varchar(500) DEFAULT NULL,
+  PRIMARY KEY (`idUsuario`)
+);
+
