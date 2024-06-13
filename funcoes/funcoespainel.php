@@ -52,6 +52,7 @@ function mostrarInformativo()
         <th scope='col'>Caminho Imagem</th>
         <th scope='col'>Perido</th>
         <th scope='col'>Data de Criação</th>
+        <th scope='col'> Imagem </th>
         <th scope='col'>Excluir</th>
 </tr>
 </thead>";

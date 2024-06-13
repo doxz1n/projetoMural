@@ -1,6 +1,5 @@
 /* Reset de margens e preenchimentos padrão */
 body, html {
-    margin: 0;
     padding: 0;
     height: 100%;
 }
@@ -47,4 +46,5 @@ footer {
 
 .botoes{
     width: 20%;
+
 }
