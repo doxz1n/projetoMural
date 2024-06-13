@@ -16,13 +16,13 @@ $user = $_SESSION['user'];
     <link href="CSS/form.css" rel="stylesheet">
 </head>
 <body>
-        <a href="logoff.php"><img src="imgs/logout.png" width="10%" /></a>
+        <a href="logoff.php" class="btn btn-danger btn-lg botoes">Sair do sistema</a>
     <?php
     echo "<div class='center'> <h1> Bem vindo $user </h1> </div>";
     mostrarContato();
     ?>
     <div>
-        <a href="cadastroinformativo.php" class="btn btn-primary"> Cadastro para o Painel Informativo </a>
+        <a href="cadastroinformativo.php" class="btn btn-primary botoes"> Cadastro para o Painel Informativo </a>
     </div>
     <div>
         <?php mostrarInformativo(); ?>

@@ -1,4 +1,4 @@
-'<?php
+<?php
 
 function conexao(){
     // $servidor = "doxz1n.mysql.database.azure.com";

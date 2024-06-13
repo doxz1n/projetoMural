@@ -18,7 +18,7 @@
             <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
                 <?php
                 $conn = conexao();
-                $stmt = $conn->prepare("SELECT * FROM tbinformativo");
+                $stmt = $conn->prepare("SELECT * FROM tbinformativo order by datacriacao desc limit 10");
                 $stmt->execute();
                 while ($row = $stmt->fetch()) {
                     echo "<div class='col'>";

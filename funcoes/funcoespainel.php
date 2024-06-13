@@ -56,7 +56,7 @@ function mostrarInformativo()
 </tr>
 </thead>";
     $conn = conexao();
-    $stmt = $conn->prepare("select * from tbInformativo");
+    $stmt = $conn->prepare("select * from tbInformativo order by datacriacao desc");
     $stmt->execute();
     while ($row = $stmt->fetch()) {
         echo("<tr class=table-warning>");
