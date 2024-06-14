@@ -8,7 +8,5 @@ $data = array();
 while ($row=$stmt->fetch()){
     $data[] = $row;
 }
-for($i = 0; $i < count($data); $i++){
-    echo json_encode($data[$i]);
-    echo "<br><br>";
-}
+echo json_encode($data);
+

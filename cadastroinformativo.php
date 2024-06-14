@@ -20,9 +20,7 @@ $criacao = date('d-m-Y');
 </head>
 
 <body>
-<header>
-    <a href="logoff.php"><img src="imgs/logout.png" width="10%"/></a>
-</header>
+    <a href="logoff.php" class="btn btn-danger btn-lg botoes">Sair do sistema</a>
 <section class="container">
     <div class="child">
         <h1 class="display-5"> Cadastro Informativo </h1>
@@ -49,7 +47,7 @@ $criacao = date('d-m-Y');
                     <input class="form-control" type="date" name="periodo" required>
                 </div>
                 <div class="mb-3">
-                    <label>Usuário</label>
+                    <label>Data de Criação</label>
                     <?php echo "<input class='form-control' type='text' placeholder='$criacao' disabled>" ?>
                 </div>
                 <input type="submit" class="btn btn-primary">

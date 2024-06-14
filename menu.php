@@ -7,7 +7,7 @@
                     Desenvolvedores </a> </li>
             <li class="nav-item"><a href="login.php" class="nav-link active" style="color: black"> Login </a> </li>
             <li class="nav-item"><a href="cadastrousr.php" class="nav-link active" style="color: black"> Cadastro
-                    Administrador </a> </li>
+                    Usuário </a> </li>
             <li class="nav-item"><a href="contato.php" class="nav-link active" style="color: black"> Fale Conosco </a>
             </li>
         </ul>

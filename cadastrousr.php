@@ -16,7 +16,7 @@
     ?>
     <section class="container">
         <div class="child">
-            <h1 class="display-5"> Cadastro Administrador </h1>
+            <h1 class="display-5"> Cadastro Usuário </h1>
             <form action=cadastrousr.php method="post">
                 <div class="form-group">
                     <div>

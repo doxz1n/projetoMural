@@ -20,21 +20,21 @@
                 <h4>Celso Augusto Machado Junior (barra)</h4>
                 <a href="mailto:celso.machado@etec.sp.gov.br"> celso.machado@etec.sp.gov.br </a>
             </div>
-            <img src="imgs/icon_person.svg" alt="Celso" width="10%">
+            <img src="imgs/barra.jpg" alt="Celso" width="10%" class="pessoa" />
         </div>
         <div class="d-flex flex-row-reverse">
             <div class="p-2">
                 <h4>Henrique Alcici Sanchez</h4>
                 <a href="mailto:henrique.sanchez@etec.sp.gov.br"> henrique.sanchez@etec.sp.gov.br </a>
             </div>
-            <img src="imgs/icon_person.svg" alt="Henrique" width="10%">
+            <img src="imgs/henrique.jpg" alt="Henrique" width="10%" class="pessoa /">
         </div>
         <div class="d-flex flex-row mb-3">
             <div class="p-2">
                 <h4>Guilherme Gonçalves Costa</h4>
                 <a href="mailto:guilherme.costa298etec.sp.gov.br"> guilherme.costa298@etec.sp.gov.br </a>
             </div>
-            <img src="imgs/icon_person.svg" alt="Guilherme" width="10%">
+            <img src="imgs/guilherme.jpg" alt="Guilherme" width="10%" class="pessoa" />
         </div>
     </section>
     <?php
